@@ -6,7 +6,7 @@ from queries import select_employers, select_vacancies_with_keyword, select_vaca
     select_top_vacancies, select_all_vacancies, select_avg_salary
 
 
-psw= os.getenv('PAS_POSTGSQL')
+psw = os.getenv('PAS_POSTGSQL')
 
 class DBManager:
     def __init__(self):
